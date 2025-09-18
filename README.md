@@ -1,7 +1,7 @@
 # 🌍 Travel Recommender
 
-**AI-powered destination finder** that turns natural-language wishes (e.g., “summer coastal trip with seafood, under 120 USD in Europe”) into actionable suggestions.  
-It blends **FAISS vector search** with **structured rules** (budget, season, coastal, continent, activities) and runs **fast on CPU**—no GPU needed.
+AI-powered destination finder that turns natural-language wishes into actionable suggestions.  
+It blends FAISS vector search with structured rules (budget, season, coastal, continent, activities).
 
 ---
 
@@ -10,15 +10,15 @@ It blends **FAISS vector search** with **structured rules** (budget, season, coa
 - **Hard constraints respected**: continent (strict), coastal include/exclude, budget cap, and season (with neighbor season fallback).
 - **Hybrid ranking**: FAISS similarity blended with rules (α=0.55; weights for budget/type/activities/season = 0.32/0.28/0.30/0.10).
 - **Spelling-noise robustness**: remains useful with typos.
-- **Fast on CPU**: typical mean latency ≈ **140 ms** in tests.
-- **Actionable links**: open Skyscanner **homepage** for flights and Booking.com city search for stays.
+- **Fast on CPU**: typical mean latency ≈ 140 ms in tests.
+- **Actionable links**: open Skyscanner homepage for flights and Booking.com city search for stays.
 - **No GPU / minimal ops**: FAISS flat index + Streamlit UI.
 
 ---
 
 ## Quickstart (local)
 
-> Requires **Python 3.10+**.
+> Requires Python 3.10+.
 
 ```bash
 # 1) Clone
