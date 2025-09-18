@@ -1,0 +1,18 @@
+{
+  "model": "sentence-transformers/all-MiniLM-L6-v2",
+  "dim": 384,
+  "ntotal": 260,
+  "source_csv": "C:\\Users\\joseb\\Universidad\\Master UCM\\TFM\\data\\Destinations.csv",
+  "schema": [
+    "City",
+    "Country",
+    "Continent",
+    "Season",
+    "Budget",
+    "Tags",
+    "Activities",
+    "Style",
+    "FullText",
+    "is_coastal"
+  ]
+}
