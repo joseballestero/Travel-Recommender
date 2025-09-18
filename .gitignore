@@ -4,11 +4,6 @@ __pycache__/
 .env
 .venv
 
-# Artefactos grandes (no subirlos)
-data/*.pkl
-data/*.npy
-data/*.index
-data/*.bin
 
 # Streamlit cache
 .streamlit/cache/

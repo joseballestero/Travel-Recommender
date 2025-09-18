@@ -94,7 +94,7 @@ st.markdown("""
 # ---------- Sidebar ----------
 with st.sidebar:
     st.header("⚙️ Options")
-    top_k = st.slider("Number of recommendations", min_value=5, max_value=20, value=10, step=1)
+    top_k = st.slider("Number of recommendations", min_value=1, max_value=20, value=10, step=1)
     st.divider()
     st.subheader("Examples")
     examples = [
