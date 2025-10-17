@@ -1,4 +1,4 @@
-# 🌍 Travel Recommender
+# Travel Recommender
 
 AI-powered destination finder that turns natural-language wishes into actionable suggestions.  
 It blends FAISS vector search with structured rules (budget, season, coastal, continent, activities).
